@@ -1,0 +1,56 @@
+:host ::ng-deep .p-menubar-root-list{
+    margin:0;
+    padding:0;
+}
+:host ::ng-deep .p-menubar
+{
+    width: 90vw;
+    margin: 2vh auto;
+
+    background-color: var(--gray-900);
+    border: none;
+}
+:host ::ng-deep .p-menuitem-link{
+    background-color: var(--gray-900);
+    border: none;
+}
+:host ::ng-deep .p-menuitem{
+    background-color: var(--gray-900);
+}
+:host ::ng-deep .p-menubar .p-menuitem-text,
+:host ::ng-deep .p-menubar .p-menuitem-icon
+{
+    color: white;
+}
+:host ::ng-deep .p-menuitem:hover .p-menuitem-text,
+:host ::ng-deep .p-menuitem:hover .p-menuitem-icon
+{
+    color: var(--gray-900);
+}
+:host ::ng-deep .p-card{
+    background-color: var(--gray-900);
+    color: white;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 50px 50px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px;
+    border-radius: 20px;
+}
+
+
+
+.icon{
+    color:white;
+    justify-content: center;
+    align-items:center;
+    margin: 0 0.5vw;
+    text-align:center;
+}
+.discord-icon:hover{
+    color:var(--purple-500);
+}
+.linkedin-icon:hover{
+    color:var(--blue-400);
+}
+.github-icon:hover{
+    color:gray;
+}
+
+

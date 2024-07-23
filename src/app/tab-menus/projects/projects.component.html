@@ -1,0 +1,20 @@
+<div class="p-grid">
+    <p-card *ngFor="let card of cards" [header]="card.header">
+        <ng-template pTemplate="header">
+            <img alt="Card" [src]="card.imgSrc" />
+        </ng-template>
+        <p>
+            {{ card.description }}
+        </p>
+        <ng-template pTemplate="footer">
+            <div class="container-tags">
+            <p-tag *ngFor="let tag of card.tags" severity="secondary" [value]="tag"/>
+            </div>
+            <div class="flex gap-3 mt-1">
+
+                <p-button label="Découvrir" class="w-full" styleClass="w-full" />
+            </div>
+        </ng-template>
+    </p-card>
+
+</div>
