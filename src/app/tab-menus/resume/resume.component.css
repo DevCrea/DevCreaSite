@@ -1,0 +1,8 @@
+.resume{
+    border: none;
+    width: auto;
+    max-width:90vw;
+    max-height: 80vh;
+    min-height: 70vh;
+    margin-bottom:2vh;
+}

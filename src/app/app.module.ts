@@ -9,17 +9,22 @@ import {Button} from "primeng/button";
 import {ProjectsComponent} from "./tab-menus/projects/projects.component";
 import {CardModule} from "primeng/card";
 import {TagModule} from "primeng/tag";
+import {ResumeComponent} from "./tab-menus/resume/resume.component";
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ProjectsComponent,
+      ResumeComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MenubarModule,
+
     Button,
     CardModule,
     TagModule,
