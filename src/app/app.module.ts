@@ -12,6 +12,7 @@ import {TagModule} from "primeng/tag";
 import {ResumeComponent} from "./tab-menus/resume/resume.component";
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,6 +29,7 @@ import {ResumeComponent} from "./tab-menus/resume/resume.component";
     Button,
     CardModule,
     TagModule,
+
 
   ],
   providers: [],

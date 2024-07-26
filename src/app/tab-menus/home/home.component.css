@@ -1,0 +1,43 @@
+.picture{
+    flex:1;
+    width:20vw;
+    height:20vw;
+
+    border: none;
+    border-radius: 50%;
+}
+.introduce{
+    flex:2;
+    width:50vw;
+    margin-left:3vw;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+@media screen and (max-width: 800px) {
+    .flex-container{
+        display:block;
+        justify-content: center;
+    }
+    .introduce {
+        text-align: center;
+        margin: 3vh 0 0 0;
+        width: 100%;
+    }
+    .picture{
+        width: 50vw;
+        height:50vw;
+
+    }
+
+
+}
+:host ::ng-deep .p-card{
+    margin:auto;
+    padding:3vw;
+    width:90vw;
+    height:auto;
+
+}

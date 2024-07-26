@@ -52,5 +52,10 @@
 .github-icon:hover{
     color:gray;
 }
+.menubar-logo{
+    height: 2.5vh;
+    margin-right:1vw;
+    width: auto;
+}
 
 

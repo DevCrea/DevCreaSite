@@ -23,7 +23,7 @@ export class ProjectsComponent implements OnInit{
         {
           header: "NestMC",
           tags: ['CSS','JAVA'],
-          imgSrc: "https://serveur-prive.net/storage/servers/thumbnail/63d88482bf60156dffc5fd2f3075a678.jpg",
+          imgSrc: "./../assets/NestMC_Logo3.png",
           description: "Site WEB avec système de vote et d'achat d'articles pour un serveur Minecraft",
           link:""
         },
