@@ -1,15 +1,87 @@
-<p-card>
+<p-card [style]="{background:'var(--gray-200)', color:'var(--gray-900)'}">
     <div class="flex-container">
 
 
-        <div class="picture_container">
+        <div class="picture_container flex1">
             <img class="picture" src="./assets/ProfilPic.jpg" alt="introduce picture"/>
         </div>
-        <div class="introduce">
-            Test
+        <div class="introduce flex2">
+            <h1>Hello ! Je suis développeur Full Stack</h1>
+            <p>
 
+                Je conçois des applications web et bureautiques.
+
+                Je travaille quotidiennement sur les technos : Java, Angular, Springboot, Flutter.
+
+                Vous êtes intéressé(e) par mon profil ? Contactez-moi via ce formulaire
+            </p>
+
+            <p-button [style]="{background:'var(--gray-900)'}">Contactez-moi !</p-button>
         </div>
+
     </div>
 
 
+</p-card>
+<p-card>
+    <h1 style="margin-bottom:5vh;">Technologies</h1>
+
+    <div class="p-grid" >
+        <p-card [style]="{ width: '20vw','min-width':'150px', background: 'var(--gray-200)', color:'var(--gray-900)' }">
+            <img class="tech-icon" src="assets/tech_icons/Java.png" alt="java_icon">
+            <h3>Java</h3>
+            <p>Niveau Intermédiaire</p>
+            <p-tag severity="info">personnel</p-tag><p-tag severity="warning">MP44</p-tag>
+        </p-card>
+        <p-card [style]="{ width: '20vw','min-width':'150px', background: 'var(--gray-200)', color:'var(--gray-900)' }">
+            <img class="tech-icon" src="assets/tech_icons/Angular.png" alt="angular_icon">
+            <h3>Angular</h3>
+            <p>Niveau Intermédiaire</p>
+            <p-tag severity="info">personnel</p-tag><p-tag severity="warning">MP44</p-tag>
+        </p-card>
+        <p-card [style]="{ width: '20vw','min-width':'150px', background: 'var(--gray-200)', color:'var(--gray-900)' }">
+            <img class="tech-icon" src="assets/tech_icons/Spring.png" alt="spring_icon">
+            <h3>Spring</h3>
+            <p>Niveau Intermédiaire</p>
+            <p-tag severity="warning">MP44</p-tag>
+        </p-card>
+        <p-card [style]="{ width: '20vw','min-width':'150px', background: 'var(--gray-200)', color:'var(--gray-900)' }">
+            <img class="tech-icon" src="assets/tech_icons/Flutter.png" alt="flutter_icon">
+            <h3>Flutter</h3>
+            <p>Niveau Intermédiaire</p>
+            <p-tag severity="warning">MP44</p-tag>
+        </p-card>
+        <p-card [style]="{ width: '20vw','min-width':'150px', background: 'var(--gray-200)', color:'var(--gray-900)' }">
+            <img class="tech-icon" src="assets/tech_icons/PostgresSQL.png" alt="postgresql_icon">
+            <h3>PostgreSQL</h3>
+            <p>Niveau Intermédiaire</p>
+            <p-tag severity="info">personnel</p-tag><p-tag severity="warning">MP44</p-tag>
+        </p-card>
+        <p-card [style]="{ width: '20vw','min-width':'150px', background: 'var(--gray-200)', color:'var(--gray-900)' }">
+            <img class="tech-icon" src="assets/tech_icons/Symfony.png" alt="symfony_icon">
+            <h3>Symfony</h3>
+            <p>Niveau débutant</p>
+            <p-tag severity="info">personnel</p-tag>
+        </p-card>
+        <p-card [style]="{ width: '20vw','min-width':'150px', background: 'var(--gray-200)', color:'var(--gray-900)' }">
+            <img class="tech-icon" src="assets/tech_icons/C%23%20(CSharp).png" alt="C#_icon">
+            <h3>C#</h3>
+            <p>Niveau débutant</p>
+            <p-tag severity="secondary">études</p-tag><p-tag severity="warning">MP44</p-tag>
+        </p-card>
+        <p-card [style]="{ width: '20vw','min-width':'150px', background: 'var(--gray-200)', color:'var(--gray-900)' }">
+            <img class="tech-icon" src="assets/tech_icons/GitHub.png" alt="github_icon">
+            <h3>Github</h3>
+            <p>Niveau Intermédiaire</p>
+            <p-tag severity="info">personnel</p-tag>
+        </p-card>
+        <p-card [style]="{ width: '20vw','min-width':'150px', background: 'var(--gray-200)', color:'var(--gray-900)' }">
+            <img class="tech-icon" src="assets/tech_icons/AWS.png" alt="aws_icon">
+            <h3>AWS</h3>
+            <p>Niveau Intermédiaire</p>
+            <p-tag severity="info">personnel</p-tag><p-tag severity="warning">MP44</p-tag>
+        </p-card>
+
+
+    </div>
 </p-card>

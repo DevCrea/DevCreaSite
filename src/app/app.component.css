@@ -27,6 +27,10 @@
 {
     color: var(--gray-900);
 }
+:host ::ng-deep .p-menuitem-link:hover{
+    background:white;
+    border-radius:20%;
+}
 :host ::ng-deep .p-card{
     background-color: var(--gray-900);
     color: white;
@@ -53,9 +57,22 @@
     color:gray;
 }
 .menubar-logo{
-    height: 2.5vh;
+    height: 3vh;
     margin-right:1vw;
     width: auto;
 }
-
+@media screen and (max-width: 1200px){
+    .menubar-logo{
+        height: 4vh;
+        margin-right:1vw;
+        width: auto;
+    }
+}
+@media screen and (max-width: 800px){
+    .menubar-logo{
+        height: 3vh;
+        margin-right:1vw;
+        width: auto;
+    }
+}
 
